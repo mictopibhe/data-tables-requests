@@ -201,9 +201,9 @@ function createInputWindow(config) {
             }).catch(error => {
                 console.log(error);
             });
-            modal.style.display = 'none';
         }
     }
+    modal.style.display = 'none';
 
     close.addEventListener('click', () => {
         modal.style.display = 'none';
